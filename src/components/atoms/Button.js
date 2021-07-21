@@ -21,10 +21,21 @@ export default styled.button`
 
     &:hover {
     color: ${ props => props.light ? 'var(--white-color)' : 'var(--dark-color)'};  
-    background-color: ${ props => props.light ? 'var(--dark-color)' : 'var(--white-color)'};   
+    background-color: ${ props => props.light ? 'transparent' : 'transparent'};   
     }
 
     ${props => props.marginTop && css`
     margin-top: 64px;
+`}
+
+${props => props.large && css`
+    width: 100%;
+    height: 60px;
+    
+    &:hover {
+        color: var(--white-color);
+        background-color: #000000cc;
+        border: none;
+    }
 `}
 `

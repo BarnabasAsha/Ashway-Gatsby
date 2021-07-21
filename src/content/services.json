@@ -1,34 +1,32 @@
-{
-    "services": [
+[
         {
-            "icon": "/",
+            "icon": "/services-door.svg",
             "title": "SOLID STEEL DOORS",
             "description": "We design and build solid secure gate systems."
         },
         {
-            "icon": "/",
-            "title": "SOLID STEEL DOORS",
+            "icon": "/services-gate.svg",
+            "title": "SOLID STEEL GATES",
             "description": "We design and build solid secure gate systems."
         },
         {
-            "icon": "/",
-            "title": "SOLID STEEL DOORS",
+            "icon": "/services-shelf.svg",
+            "title": "STEEL SHELVES",
             "description": "We design and build solid secure gate systems."
         },
         {
-            "icon": "/",
-            "title": "SOLID STEEL DOORS",
+            "icon": "/services-rail.svg",
+            "title": "STEEL RAILS",
             "description": "We design and build solid secure gate systems."
         },
         {
-            "icon": "/",
-            "title": "SOLID STEEL DOORS",
+            "icon": "/services-tank.svg",
+            "title": "SOLID TANK STANDS",
             "description": "We design and build solid secure gate systems."
         },
         {
-            "icon": "/",
-            "title": "SOLID STEEL DOORS",
+            "icon": "/services-laser.svg",
+            "title": "LASER CUTTING",
             "description": "We design and build solid secure gate systems."
         }
-    ]
-}
+]

@@ -7,4 +7,8 @@ export default styled.div`
     flex-direction: column;
     align-items: center;
     padding: 72px 0;
+
+    @media screen and (max-width: 500px) {
+        padding: 50px 0;
+    }
 `
