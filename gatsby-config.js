@@ -49,7 +49,7 @@ module.exports = {
         background_color: `#E5F5FE`,
         theme_color: `#1F3946`,
         display: `minimal-ui`,
-        icon: `Ashway`, // This path is relative to the root of the site.
+        icon: `src/images/Ashway.png` // This path is relative to the root of the site.
       },
     },
 ],
