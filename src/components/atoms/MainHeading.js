@@ -17,8 +17,8 @@ export default styled.h1`
       display: inline-block;
     }
 
-    @media screen and (min-width: 1204px) {
+    /* @media screen and (min-width: 1204px) {
     text-align: ${props => props.center ? 'center' : 'left'};
 
-  }
+  } */
 `
