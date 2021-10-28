@@ -1,4 +1,3 @@
-import { motion } from "framer-motion"
 import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
@@ -54,9 +53,6 @@ const NavLinks = styled.nav`
 
 export default function Navbar({ light }) {
   return (
-    <motion.div initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{delay: 0.3, duration: 1,}}>
     <Nav light={light}>
       <Logo />
       <NavLinks light={light}>
@@ -66,6 +62,5 @@ export default function Navbar({ light }) {
         <Link to="/contact">Contact</Link>
       </NavLinks>
     </Nav>
-    </motion.div>
   )
 }

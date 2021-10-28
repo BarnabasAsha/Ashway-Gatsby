@@ -66,9 +66,11 @@ export default function Footer(props) {
               <Text small bold right>
                   <a href="mailto:hello@shway.com">hello@ashway.com</a>
               </Text>
+              <div style={{margin: '0.8em 0 0 0.8em'}}>
               <Text xsmall right>
               © 2021 ASHWAY Integrated Services. All rights reserved.
               </Text>
+              </div>
           </div>
       </FooterContent>
     </FooterWrapper>

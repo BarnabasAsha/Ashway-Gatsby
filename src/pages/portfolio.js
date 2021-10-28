@@ -37,19 +37,14 @@ export default function Portfolio({ data }) {
                     <MainHeading center light>
                       <motion.span initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{delay: 0.5, duration: 1,}}>
-                      Our&nbsp;
-                      </motion.span>
-                      <motion.span initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{delay: 1, duration: 1,}}>
-                        Portfolio
+          transition={{delay: 0.2, duration: 1,}}>
+                      Our Portfolio
                       </motion.span>
                     </MainHeading>
                     <Text center light grey desc>
                     <motion.span initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{delay: 1.5, duration: 1,}} >
+          transition={{delay: 0.7, duration: 1,}} >
                     We value our clients and see them as our partners, we respect their needs, budget and appeal. We are confident to offer products with true worth and value that would stand the test of time
                     </motion.span>
                     </Text>
@@ -61,7 +56,7 @@ export default function Portfolio({ data }) {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 1.7, duration: 1 }}
+              transition={{ delay: 1.2, duration: 1 }}
             >
             <Container>
               <Gallery images={images} />
